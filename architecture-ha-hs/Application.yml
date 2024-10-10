@@ -109,8 +109,8 @@ Resources:
         ImageId: ami-0fff1b9a61dec8a5f
         InstanceType: t2.micro
         IamInstanceProfile:
-          Name: EC2s3
-        KeyName: iotTest
+          Name: ec2roll
+        KeyName: bkappserv
         SecurityGroupIds:
           - !Ref SGwebserver
         UserData:
