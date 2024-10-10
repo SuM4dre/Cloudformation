@@ -70,7 +70,7 @@ Resources:
       AvailabilityZone: us-east-1a
       InstanceType: t2.micro
       IamInstanceProfile: ec2roll
-      KeyName: bkappserv
+      KeyName: KeyParW
       NetworkInterfaces:
         - AssociatePublicIpAddress: true
           DeviceIndex: 0
@@ -110,7 +110,7 @@ Resources:
         InstanceType: t2.micro
         IamInstanceProfile:
           Name: ec2roll
-        KeyName: bkappserv
+        KeyName: KeyParW
         SecurityGroupIds:
           - !Ref SGwebserver
         UserData:
