@@ -216,3 +216,9 @@ Outputs:
     Export:
       Name: BastionHost
   
+  SGdatabases:
+    Description: SG databases
+    Value: !GetAtt SGdatabases.GroupId
+    Export:
+      Name: !Sub ${AWS::StackName}-SGdatabases
+  
