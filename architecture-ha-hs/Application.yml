@@ -69,8 +69,8 @@ Resources:
       ImageId: ami-0fff1b9a61dec8a5f
       AvailabilityZone: us-east-1a
       InstanceType: t2.micro
-      IamInstanceProfile: EC2s3
-      KeyName: iotTest
+      IamInstanceProfile: ec2roll
+      KeyName: bkappserv
       NetworkInterfaces:
         - AssociatePublicIpAddress: true
           DeviceIndex: 0
