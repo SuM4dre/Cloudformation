@@ -3,7 +3,7 @@
         {
             "PutRequest": {
                 "Item": {
-                    "userid": {"S": "user357"},
+                    "userid": {"S": "user2"},
                     "username": {"S": "Maelo"},
                     "email": {"S": "maelo@example.com"},
                     "age": {"N": "30"},
@@ -15,7 +15,7 @@
         {
             "PutRequest": {
                 "Item": {
-                    "userid": {"S": "user456"},
+                    "userid": {"S": "user3"},
                     "username": {"S": "Juan"},
                     "email": {"S": "juan@example.com"},
                     "age": {"N": "25"},
@@ -27,7 +27,7 @@
         {
             "PutRequest": {
                 "Item": {
-                    "userid": {"S": "user789"},
+                    "userid": {"S": "user4"},
                     "username": {"S": "Ana"},
                     "email": {"S": "ana@example.com"},
                     "age": {"N": "28"},
@@ -39,7 +39,7 @@
         {
             "PutRequest": {
                 "Item": {
-                    "userid": {"S": "user101"},
+                    "userid": {"S": "user5"},
                     "username": {"S": "Carlos"},
                     "email": {"S": "carlos@example.com"},
                     "age": {"N": "35"},
@@ -51,7 +51,7 @@
         {
             "PutRequest": {
                 "Item": {
-                    "userid": {"S": "user202"},
+                    "userid": {"S": "user6"},
                     "username": {"S": "Sofia"},
                     "email": {"S": "sofia@example.com"},
                     "age": {"N": "22"},
